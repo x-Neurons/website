@@ -17,9 +17,9 @@ const HeroSection = () => {
       </video>
 
       <div className="relative z-10 text-center p-6 mt-48">
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide text-white drop-shadow-[0px_0px_10px_rgba(255,255,255,0.9)]">
           Innovating Bussiness with
-          <span className="bg-gradient-to-r from-teal-200 to-teal-200 text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-cyan-200 to-cyan-200 text-transparent bg-clip-text drop-shadow-[0_0_3px_rgba(13,189,203,0.9)]">
             {" "}
             Web-Integrated Ai Solutions
           </span>

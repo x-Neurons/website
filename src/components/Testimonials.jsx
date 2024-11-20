@@ -4,9 +4,9 @@ const Testimonials = () => {
   return (
     <div className="mt-20 tracking-wide" id="testimonials">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
-        What People {" "}
+        Insights From {" "}
         <span className="bg-gradient-to-r from-teal-300 to-teal-300  text-transparent bg-clip-text">
-          are Saying
+          Our Clients
         </span>
       </h2>
       <div className="flex flex-wrap justify-center">
@@ -16,7 +16,7 @@ const Testimonials = () => {
               <p>{testimonial.text}</p>
               <div className="flex mt-8 items-start">
                 <img
-                  className="w-12 h-12 mr-6 rounded-full"
+                  className="w-16 h-12 mr-6"
                   src={testimonial.image}
                   alt=""
                 />

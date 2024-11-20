@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a
               href="https://www.linkedin.com/company/xneurons/about/" target="_blank"
-              className="bg-gradient-to-r  from-teal-300 to-teal-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r  from-sky-300 to-sky-800 py-2 px-3 rounded-md"
             >
               Contact Us
             </a>
@@ -53,7 +53,7 @@ const Navbar = () => {
             <div className="flex space-x-6">
               <a
                 href="https://www.linkedin.com/company/xneurons/about/" target="_blank"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-teal-300 to-teal-800"
+                className="py-2 px-3 rounded-md bg-gradient-to-r from-sky-300 to-sky-800"
               >
                 Contact Us
               </a>
