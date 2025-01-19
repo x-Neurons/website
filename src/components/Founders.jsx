@@ -1,7 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 import { pricingOptions } from "../constants";
 import shahryar from "../assets/shahryar.jpg";
-import asad from "../assets/asad.jfif";
+import asad from "../assets/Asad.jpg";
 
 const Founders = () => {
   return (
@@ -14,7 +14,7 @@ const Founders = () => {
       </h2>
 
       <div className="flex flex-wrap justify-center gap-10">
-        <div class="w-full max-w-sm dark rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-cyan-300 ">
+        <div class="w-full max-w-sm dark rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 border-b-4 border-transparent hover:border-b-4 hover:border-red-700">
           <a href="#founders">
             <img class="p-8 rounded-t-lg h-96 w-80 mx-auto" src={shahryar} alt="product image" />
           </a>
@@ -26,7 +26,7 @@ const Founders = () => {
           </div>
         </div>
         
-        <div class="w-full max-w-sm dark rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-cyan-300">
+        <div class="w-full max-w-sm dark rounded-lg shadow dark:bg-gray-800 dark:border-gray-700border-b-4 border-transparent hover:border-b-4 hover:border-red-700">
           <a href="#founders">
             <img class="p-8 rounded-t-lg h-96 w-80 mx-auto" src={asad} alt="product image" />
           </a>

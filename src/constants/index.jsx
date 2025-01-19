@@ -26,6 +26,7 @@ export const navItems = [
   { label: "Development", href: "#future" },
   { label: "Founders", href: "#founders" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "Blogs", href: "/blogs" },
 ];
 
 export const testimonials = [
@@ -73,21 +74,21 @@ export const features = [
     icon: <BotMessageSquare />,
     text: "MERN Stack Development",
     description:
-      "End to End MERN stack development for any Bussiness",
+      "End to End MERN stack development for any Bussiness. Tailored solutions to meet your unique needs.",
   },
   {
     img: wordpress,
     icon: <Fingerprint />,
     text: "WordPress Full Stack Development",
     description:
-      "Easy to manage, best for small Bussiness and Brands",
+      "Easy to manage, best for small Bussiness and Brands. Delivering robust , accurate and scalable solutions.",
   },
   {
     img: webScraping,
     icon: <ShieldHalf />,
     text: "Web Scraping using Python",
     description:
-      "Scrap bulk data according to requirement using Python",
+      "Scrap bulk data according to requirement using Python. Accurate and efficient data extraction services.",
   },
   {
     img: nlp,
@@ -108,7 +109,7 @@ export const features = [
     icon: <GlobeLock />,
     text: "Computer Vision",
     description:
-      "We deliver real-time object detection, image segmentation, and visual data insights.",
+      "We deliver real-time object detection, image segmentation, data annotation and visual data insights.",
   },
   {
     img: bigData,
@@ -122,14 +123,14 @@ export const features = [
     icon: <GlobeLock />,
     text: "Data Analysis",
     description:
-      "We transform raw data into actionable insights with advanced data interpretation techniques."
+      "We transform raw data into actionable and meaningfull insights with advanced data interpretation techniques."
   },
   {
     img: automation,
     icon: <GlobeLock />,
     text: "Data Automation",
     description:
-      "We streamline data workflows and automate processing to improve efficiency and accuracy."
+      "We streamline data workflows ,automate processing and optimize to improve efficiency and accuracy."
   },
   
 ];
