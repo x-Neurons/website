@@ -26,7 +26,7 @@ export const navItems = [
   { label: "Development", href: "#future" },
   { label: "Founders", href: "#founders" },
   { label: "Testimonials", href: "#testimonials" },
-  { label: "Blogs", href: "/blogs" },
+  { label: "Blogs", href: "https://dev.to/asadullahmasood" },
 ];
 
 export const testimonials = [
